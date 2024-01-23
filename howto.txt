@@ -18,4 +18,5 @@ note:
 - par défaut dans la solution le projet de démarrage n'est pas celui du jeu, il faut le sélectionner comme projet de démarrage (autrement ça compile mais ne s'éxécute pas). 
 
 
-cmake . -G"Visual Studio 17 2022" -A Win32
+https://sourceforge.net/projects/portable-python/files/Portable%20Python%202.7/
+cmake . -G"Visual Studio 17 2022" -Tv143 -A Win32
