@@ -1,0 +1,21 @@
+cocos howto setup
+
+Le guide a été écrit à partir de la version cocos 4.0 disponible ici https://cocos2d-x.org/filedown/cocos2d-x-v4.0 Il pourrait y avoir des différences avec la version git
+
+- prérequis: python 2.x (testé avec la 2.7.18). Probablement pas fonctionel sous python 3
+- dézipper l'installation
+- ouvrir une invite de commande dans le dossier de cocos, et éxécuter ./setup.py (ignorer la partie setup android)
+- créer un nouveau projet: cocos new MyGame -p com.your_company.mygame -l cpp -d ../mygame
+pour avoir un projet visual studio:
+- aller à la racine du projet créé
+- taper les lignes de commande suivante
+
+mkdir win32-build && cd win32-build
+cmake .. -G"Visual Studio 16 2017" -Tv141
+
+note: 
+- j'ai fait générer une version visual 2017 du projet car elle compile immédiatement sans retakes du projet. Cela n'empêche pas de l'ouvrir avec une version plus résente de l'IDE
+- par défaut dans la solution le projet de démarrage n'est pas celui du jeu, il faut le sélectionner comme projet de démarrage (autrement ça compile mais ne s'éxécute pas). 
+
+
+cmake . -G"Visual Studio 17 2022" -A Win32
