@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\tinyxml2\tinyxml2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\tinyxml2\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{886ABDC5-1EA6-3DF5-9CA1-35F0B9C9CE0B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

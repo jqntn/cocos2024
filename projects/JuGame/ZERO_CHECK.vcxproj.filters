@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\CMakeFiles\c0f9c1d98a2ba689ec16a5617c3d71bb\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2DEBC31F-232C-3653-8B80-CA5886561F2E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

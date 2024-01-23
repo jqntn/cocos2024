@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4D21F064-F6D4-3FC9-A3C2-39E7E4AAAEDA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>Win32</Platform>
+    <ProjectName>external</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">external.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">external</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">external.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">external</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">external.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">external</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">external.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">external</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\recast\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\tinyxml2\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\xxhash\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\xxtea\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\clipper\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\edtaa3func\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\ConvertUTF\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\poly2tri\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\md5\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\unzip\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/Box2D/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/chipmunk/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/freetype2/include/win32/freetype2" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/bullet/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/bullet/include/bullet" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/jpeg/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/openssl/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/uv/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/webp/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/websockets/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/curl/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/png/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/win32-specific/gles/include/OGLES" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/win32-specific/icon/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/win32-specific/MP3Decoder/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/win32-specific/OggDecoder/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/win32-specific/OpenalSoft/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/glfw3/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/zlib/../win32-specific/zlib/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;LWS_WITH_LIBUV;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;LWS_WITH_LIBUV;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\recast\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\tinyxml2\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\xxhash\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\xxtea\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\clipper\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\edtaa3func\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\ConvertUTF\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\poly2tri\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\md5\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\unzip\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\Box2D\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\chipmunk\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\bullet\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\bullet\include\bullet;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\jpeg\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\openssl\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\uv\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\webp\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\websockets\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\curl\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\png\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\icon\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\glfw3\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\recast\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\tinyxml2\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\xxhash\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\xxtea\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\clipper\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\edtaa3func\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\ConvertUTF\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\poly2tri\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\md5\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\unzip\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\Box2D\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\chipmunk\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\bullet\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\bullet\include\bullet;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\jpeg\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\openssl\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\uv\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\webp\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\websockets\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\curl\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\png\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\icon\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\glfw3\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\recast\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\tinyxml2\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\xxhash\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\xxtea\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\clipper\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\edtaa3func\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\ConvertUTF\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\poly2tri\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\md5\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\unzip\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/Box2D/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/chipmunk/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/freetype2/include/win32/freetype2" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/bullet/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/bullet/include/bullet" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/jpeg/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/openssl/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/uv/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/webp/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/websockets/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/curl/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/png/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/win32-specific/gles/include/OGLES" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/win32-specific/icon/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/win32-specific/MP3Decoder/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/win32-specific/OggDecoder/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/win32-specific/OpenalSoft/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/glfw3/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/zlib/../win32-specific/zlib/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LWS_WITH_LIBUV;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LWS_WITH_LIBUV;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\recast\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\tinyxml2\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\xxhash\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\xxtea\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\clipper\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\edtaa3func\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\ConvertUTF\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\poly2tri\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\md5\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\unzip\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\Box2D\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\chipmunk\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\bullet\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\bullet\include\bullet;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\jpeg\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\openssl\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\uv\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\webp\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\websockets\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\curl\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\png\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\icon\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\glfw3\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\recast\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\tinyxml2\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\xxhash\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\xxtea\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\clipper\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\edtaa3func\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\ConvertUTF\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\poly2tri\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\md5\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\unzip\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\Box2D\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\chipmunk\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\bullet\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\bullet\include\bullet;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\jpeg\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\openssl\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\uv\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\webp\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\websockets\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\curl\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\png\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\icon\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\glfw3\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\recast\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\tinyxml2\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\xxhash\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\xxtea\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\clipper\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\edtaa3func\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\ConvertUTF\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\poly2tri\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\md5\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\unzip\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/Box2D/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/chipmunk/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/freetype2/include/win32/freetype2" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/bullet/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/bullet/include/bullet" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/jpeg/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/openssl/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/uv/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/webp/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/websockets/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/curl/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/png/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/win32-specific/gles/include/OGLES" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/win32-specific/icon/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/win32-specific/MP3Decoder/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/win32-specific/OggDecoder/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/win32-specific/OpenalSoft/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/glfw3/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/zlib/../win32-specific/zlib/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LWS_WITH_LIBUV;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LWS_WITH_LIBUV;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\recast\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\tinyxml2\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\xxhash\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\xxtea\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\clipper\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\edtaa3func\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\ConvertUTF\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\poly2tri\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\md5\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\unzip\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\Box2D\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\chipmunk\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\bullet\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\bullet\include\bullet;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\jpeg\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\openssl\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\uv\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\webp\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\websockets\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\curl\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\png\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\icon\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\glfw3\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\recast\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\tinyxml2\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\xxhash\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\xxtea\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\clipper\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\edtaa3func\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\ConvertUTF\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\poly2tri\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\md5\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\unzip\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\Box2D\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\chipmunk\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\bullet\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\bullet\include\bullet;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\jpeg\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\openssl\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\uv\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\webp\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\websockets\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\curl\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\png\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\icon\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\glfw3\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\recast\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\tinyxml2\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\xxhash\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\xxtea\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\clipper\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\edtaa3func\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\ConvertUTF\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\poly2tri\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\md5\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\unzip\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/Box2D/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/chipmunk/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/freetype2/include/win32/freetype2" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/bullet/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/bullet/include/bullet" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/jpeg/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/openssl/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/uv/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/webp/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/websockets/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/curl/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/png/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/win32-specific/gles/include/OGLES" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/win32-specific/icon/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/win32-specific/MP3Decoder/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/win32-specific/OggDecoder/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/win32-specific/OpenalSoft/include" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/glfw3/include/win32" /external:I "C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/zlib/../win32-specific/zlib/include"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LWS_WITH_LIBUV;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;LWS_WITH_LIBUV;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\recast\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\tinyxml2\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\xxhash\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\xxtea\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\clipper\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\edtaa3func\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\ConvertUTF\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\poly2tri\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\md5\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\unzip\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\Box2D\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\chipmunk\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\bullet\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\bullet\include\bullet;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\jpeg\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\openssl\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\uv\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\webp\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\websockets\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\curl\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\png\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\icon\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\glfw3\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\recast\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\tinyxml2\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\xxhash\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\xxtea\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\clipper\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\edtaa3func\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\ConvertUTF\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\poly2tri\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\md5\..;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\unzip\.;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\Box2D\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\chipmunk\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\freetype2\include\win32\freetype2;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\bullet\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\bullet\include\bullet;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\jpeg\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\openssl\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\uv\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\webp\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\websockets\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\curl\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\png\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\gles\include\OGLES;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\icon\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\MP3Decoder\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\OggDecoder\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\win32-specific\OpenalSoft\include;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\glfw3\include\win32;C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\zlib\..\win32-specific\zlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame -BC:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame --check-stamp-file C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/engine/external/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\engine\external\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame -BC:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame --check-stamp-file C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/engine/external/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\engine\external\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame -BC:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame --check-stamp-file C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/engine/external/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\engine\external\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/cocos2d/external/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame -BC:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame --check-stamp-file C:/Users/jqntn/Documents/IIM/cocos2024/projects/JuGame/engine/external/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\engine\external\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\cocos2d\external\empty.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\ZERO_CHECK.vcxproj">
+      <Project>{B6EE0925-016B-3A02-A0FF-CF4162DB782C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\engine\external\clipper\ext_clipper.vcxproj">
+      <Project>{F1AA5D6F-6F70-3F0F-9303-C7268C88794B}</Project>
+      <Name>ext_clipper</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\engine\external\ConvertUTF\ext_convertUTF.vcxproj">
+      <Project>{26ED5E0B-4A11-3F36-AFCE-7FDAD71E523E}</Project>
+      <Name>ext_convertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\engine\external\edtaa3func\ext_edtaa3func.vcxproj">
+      <Project>{A0794890-D4C7-3696-AA7E-37C644853C75}</Project>
+      <Name>ext_edtaa3func</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\engine\external\md5\ext_md5.vcxproj">
+      <Project>{46C5DCFB-0110-3684-98E2-E2CDA54FCC1C}</Project>
+      <Name>ext_md5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\engine\external\poly2tri\ext_poly2tri.vcxproj">
+      <Project>{6BE6B9D5-D847-3026-866C-E3A5295E3FAF}</Project>
+      <Name>ext_poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\engine\external\recast\ext_recast.vcxproj">
+      <Project>{482161B4-512A-3BA1-B6DA-B57C60C0D82E}</Project>
+      <Name>ext_recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\engine\external\tinyxml2\ext_tinyxml2.vcxproj">
+      <Project>{EC4CDC42-B7BC-3DEB-8EAB-4345FB1F61AC}</Project>
+      <Name>ext_tinyxml2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\engine\external\unzip\ext_unzip.vcxproj">
+      <Project>{A58FC3A9-0283-3B24-A5BE-15B14EB7099D}</Project>
+      <Name>ext_unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\engine\external\xxhash\ext_xxhash.vcxproj">
+      <Project>{3377FEB3-4D75-3232-B2B6-6C4CE3999AD9}</Project>
+      <Name>ext_xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jqntn\Documents\IIM\cocos2024\projects\JuGame\engine\external\xxtea\ext_xxtea.vcxproj">
+      <Project>{AAAED506-7C16-3F7B-ACFB-0628BCB8DE2B}</Project>
+      <Name>ext_xxtea</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
