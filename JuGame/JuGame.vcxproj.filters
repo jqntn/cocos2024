@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Classes\AppDelegate.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Classes\MainScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Classes\PauseScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Classes\GameOverScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\proj.win32\main.cpp">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\cocos2d\cocos\precheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Classes\AppDelegate.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Classes\MainScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Classes\PauseScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Classes\GameOverScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\proj.win32\main.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\proj.win32\resource.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\CloseNormal.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\CloseSelected.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\HelloWorld.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\fonts\Marker Felt.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\fonts\arial.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\images\background.png">
+      <Filter>Resources\images</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\images\backgroundColorFall.png">
+      <Filter>Resources\images</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\images\backgroundColorForest.png">
+      <Filter>Resources\images</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\images\backgroundColorGrass.png">
+      <Filter>Resources\images</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\images\bomb.png">
+      <Filter>Resources\images</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\images\character_zombie_sheet.png">
+      <Filter>Resources\images</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\images\female_tilesheet.png">
+      <Filter>Resources\images</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\images\flat.png">
+      <Filter>Resources\images</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\images\mute.png">
+      <Filter>Resources\images</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\images\pause.png">
+      <Filter>Resources\images</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\images\pause_pressed.png">
+      <Filter>Resources\images</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\images\pixel_style2.png">
+      <Filter>Resources\images</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\images\play.png">
+      <Filter>Resources\images</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\images\play_pressed.png">
+      <Filter>Resources\images</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\images\roguelikeChar_transparent.png">
+      <Filter>Resources\images</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\images\roguelikeCity_magenta.png">
+      <Filter>Resources\images</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\images\sheet.png">
+      <Filter>Resources\images</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\images\soldier_tilesheet.png">
+      <Filter>Resources\images</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\images\spritesheet_default.png">
+      <Filter>Resources\images</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\images\tanks_spritesheetDefault.png">
+      <Filter>Resources\images</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\images\unmute.png">
+      <Filter>Resources\images</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\res\.gitkeep">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\sounds\bomb.mp3">
+      <Filter>Resources\sounds</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\sounds\music.mp3">
+      <Filter>Resources\sounds</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\Resources\sounds\uh.mp3">
+      <Filter>Resources\sounds</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\jqntn\Documents\IIM\test\cocos2024\JuGame\proj.win32\game.rc">
+      <Filter>Source Files\proj.win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{A790044E-3A86-3EB0-8EDD-A0D4D73460EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\fonts">
+      <UniqueIdentifier>{B25EDDA4-418A-30AC-AB0F-166C3DC9A328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\images">
+      <UniqueIdentifier>{AA1594BF-E25B-3AA9-A68D-663E5A53D8CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res">
+      <UniqueIdentifier>{F6832A29-AFA1-34EB-9CEE-F6C9F3A3791D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\sounds">
+      <UniqueIdentifier>{F182A7AF-9F19-3F55-ADB0-B06AFE772723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0964E366-97C4-3FA5-B482-9B69AC510279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{3B1DBCA1-B0E4-3902-8841-707EDFD85AEF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\proj.win32">
+      <UniqueIdentifier>{C0659623-6B07-30A0-9A8F-9F1CB917B96A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
